@@ -1,2 +1,2 @@
-# time-table
-mini project on creation of college time table using html css
+# creating form using html and CSS
+mini project on creation of Forms using html css

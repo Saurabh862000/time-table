@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title>saurav forms</title>
+    <style>
+      body {
+        background-image: url(./bg1.jpg);
+        background-size: 100%;
+      }
+      .h1 {
+        font-size: 60px;
+      }
+      .t1 {
+        border: 3px solid red;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .d1 {
+        border: 3px solid red;
+        padding-left: 20px;
+      }
+
+      .p11 {
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin: 0px;
+      }
+      #i {
+        background-color: rgb(241, 220, 194);
+        background-image: url(./bg3.jpg);
+      }
+      .t4 {
+        border: 3px solid red;
+      }
+    </style>
+    <body>
+      <h1 align="center" class="h1">Forms Concepts</h1>
+      <table id="i" border="4" align="center" height="500" width="500">
+        <tr>
+          <th colspan="2" style="border: 3px solid red">
+            <font size="8px"> Fill The Form </font>
+          </th>
+        </tr>
+        <tr>
+          <td class="t1"><label for="a"> Name:</label></td>
+          <td class="d1">
+            <input
+              type="text"
+              id="a"
+              placeholder="Enter Your Name"
+              style="border: 3px solid black"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="t1"><label for="b"> Email:</label></td>
+          <td class="d1">
+            <input
+              type="email"
+              id="b"
+              placeholder="Enter Your Email"
+              style="border: 3px solid black"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="t1"><label for="c"> Phone No.:</label></td>
+          <td class="d1">
+            <input
+              type="number"
+              id="c"
+              placeholder="Enter Your Phone"
+              style="border: 3px solid black"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="t1">D-O-B:</td>
+          <td class="d1">
+            <input type="date" style="border: 3px solid black" />
+          </td>
+        </tr>
+        <tr>
+          <td class="t1"><label for="d"> Address:</label></td>
+          <td class="d1">
+            <textarea
+              name=""
+              id=""
+              cols="20"
+              rows="5"
+              style="border: 3px solid black"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="t1">Country:</td>
+          <td class="d1">
+            <select name="" id="">
+              <option value="">IND</option>
+              <option value="">PAK</option>
+              <option value="">RUS</option>
+              <option value="">AUS</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="t1">Gender:</td>
+          <td class="t4">
+            <font style="padding-left: 40px" size="4px"
+              ><input type="radio" name="a" /> <b> Male</b></font
+            >
+            <font style="float: right; padding-right: 40px" size="4px">
+              <b> Female</b></font
+            ><input type="radio" name="a" style="float: right" />
+          </td>
+        </tr>
+        <tr>
+          <td class="t1">Subject:</td>
+          <td class="d1">
+            <input type="checkbox" nsme="s" /> <b>Java</b>
+            <input type="checkbox" nsme="s" /> <b> Web Tech</b>
+            <input type="checkbox" nsme="s" /> <b> SQL</b>
+          </td>
+        </tr>
+        <tr>
+          <td class="t1">Password:</td>
+          <td class="d1">
+            <input type="password" style="border: 3px solid black" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center" style="border: 3px solid red">
+            <a href="./portfolio.html"
+              ><button
+                type="button"
+                target="blank"
+                style="border: 3px solid black"
+              >
+                <font size="6px"> Submit Form </font>
+              </button></a
+            >
+          </td>
+          <td></td>
+        </tr>
+      </table>
+      <marquee behavior="alternate" direction="right">
+        <font size="9px"><b> Applicant Applied Already...</b></font></marquee
+      >
+    </body>
+  </head>
+</html>
